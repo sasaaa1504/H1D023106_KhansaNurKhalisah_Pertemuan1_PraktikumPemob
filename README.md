@@ -33,7 +33,8 @@ e. MaterialButton (btn_to_page2) → Tombol untuk menuju halaman kedua.
 # Tugas2 - Pertemuan 3
 
 # 🎥 Demo Aplikasi
-[Lihat Demo Video](https://github.com/sasaaa1504/H1D023106_KhansaNurKhalisah_Pertemuan1_PraktikumPemob/blob/master/app/video/demo.mp4)
+[⬇️ Download Demo Video](https://github.com/sasaaa1504/H1D023106_KhansaNurKhalisah_Pertemuan1_PraktikumPemob/raw/master/app/video/demo.mp4)
+
 
 
 # 📱 IF Unsoed Mobile
