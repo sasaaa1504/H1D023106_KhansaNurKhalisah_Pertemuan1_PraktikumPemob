@@ -3,6 +3,7 @@ Nama: Khansa Nur Khalisah
 NIM: H1D023106
 Shift: B/E
 
+# Tugas 1- Pertemuan 2
 # Dokumentasi
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/35df2a5a-c1cd-44f8-bcde-3475c00422d2" />
 
@@ -28,4 +29,41 @@ b. ImageView (img_gedung_teknik) → Menampilkan gambar gedung teknik.
 c. TextView (tv_welcome) → Menampilkan teks sambutan.
 d. TextView (tv_description) → Menampilkan deskripsi singkat.
 e. MaterialButton (btn_to_page2) → Tombol untuk menuju halaman kedua.
+
+# Tugas2 - Pertemuan 3
+
+# 📱 IF Unsoed Mobile
+
+Aplikasi Android sederhana untuk menampilkan **profil lulusan Informatika Unsoed** serta menyediakan navigasi cepat ke beberapa kontak penting.
+
+# ✨ Fitur Utama
+- Halaman Utama (MainActivity) → tombol untuk menuju halaman profil lulusan.  
+- Halaman Profil (Halaman2Activity) →  
+  - Logo & gedung Unsoed  
+  - CardView deskripsi profil lulusan  
+  - Menu kontak (telepon, email, lokasi, Instagram)  
+  - Tombol kembali  
+
+# 🏗️ Struktur Proyek
+- **Activity**
+  - MainActivity.kt  
+  - Halaman2Activity.kt  
+- **Layout**
+  - activity_main.xml  
+  - activity_halaman2.xml  
+  - layout_menu.xml  
+- **Drawable**
+  - ic_phone, ic_email, ic_location, ic_himpunan  
+  - teknik_unsoed_2, lambang_unsoed  
+
+# ⚙️ Implementasi
+## View Binding
+```kotlin
+binding = ActivityHalaman2Binding.inflate(layoutInflater)
+setContentView(binding.root)
+
+
+
+
+
 
