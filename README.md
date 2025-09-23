@@ -33,7 +33,7 @@ e. MaterialButton (btn_to_page2) → Tombol untuk menuju halaman kedua.
 # Tugas2 - Pertemuan 3
 
 # 🎥 Demo Aplikasi
-[⬇️ Download Demo Video](https://github.com/sasaaa1504/H1D023106_KhansaNurKhalisah_Pertemuan1_PraktikumPemob/raw/master/app/video/demo 1.mp4)
+[⬇️ Download Demo Video](https://github.com/sasaaa1504/H1D023106_KhansaNurKhalisah_Pertemuan1_PraktikumPemob/raw/master/app/video/demo1.mp4)
 
 
 
@@ -65,7 +65,7 @@ Aplikasi Android sederhana untuk menampilkan **profil lulusan Informatika Unsoed
 # Tugas 3 - Pertemuan 4  
 
 # 🎥 Demo Aplikasi  
-[⬇️ Download Demo Video](https://github.com/sasaaa1504/H1D023106_KhansaNurKhalisah_Pertemuan1_PraktikumPemob/raw/master/app/video/demo 2.mp4)
+[⬇️ Download Demo Video](https://github.com/sasaaa1504/H1D023106_KhansaNurKhalisah_Pertemuan1_PraktikumPemob/raw/master/app/video/demo2.mp4)
 
 ---
 
