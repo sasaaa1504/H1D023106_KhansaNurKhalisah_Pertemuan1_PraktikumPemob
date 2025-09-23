@@ -27,6 +27,7 @@ class DaftarBukuActivity : AppCompatActivity() {
         viewModel.books.observe(this) {
             adapter.setData(it)
 
-        viewModel.fetchBooks(query = "kotlin programming")
+            viewModel.fetchBooks(query = "kotlin programming")
+        }
     }
 }
