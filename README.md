@@ -61,13 +61,8 @@ Aplikasi Android sederhana untuk menampilkan **profil lulusan Informatika Unsoed
   - ic_phone, ic_email, ic_location, ic_himpunan  
   - teknik_unsoed_2, lambang_unsoed  
 
-# ⚙️ Implementasi
-## View Binding
-```kotlin
-binding = ActivityHalaman2Binding.inflate(layoutInflater)
-setContentView(binding.root)
 
-# Tugas4 - Pertemuan 4  
+# Tugas3 - Pertemuan 4  
 
 # 🎥 Demo Aplikasi  
 [⬇️ Download Demo Video](#)  
