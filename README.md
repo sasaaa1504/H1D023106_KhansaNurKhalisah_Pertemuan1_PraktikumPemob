@@ -69,12 +69,12 @@ Aplikasi Android sederhana untuk menampilkan **profil lulusan Informatika Unsoed
 
 ---
 
-#📚 Book Search App (MVVM + Retrofit)  
+# Book Search App (MVVM + Retrofit)  
 Aplikasi Android sederhana untuk menampilkan **daftar buku dari OpenLibrary API** dengan menerapkan **arsitektur MVVM** dan **networking Retrofit**.  
 
 ---
 
-#✨Fitur Utama  
+# Fitur Utama  
 - Halaman Utama (DaftarBukuActivity) → menampilkan daftar hasil pencarian buku  
   - RecyclerView untuk daftar buku  
   - Adapter untuk menghubungkan data ke tampilan  
@@ -88,7 +88,7 @@ Aplikasi Android sederhana untuk menampilkan **daftar buku dari OpenLibrary API*
 
 ---
 
-# 📂 Struktur Proyek  
+# Struktur Proyek  
 
 # Activity / View  
 - `DaftarBukuActivity.kt`  
