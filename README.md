@@ -74,7 +74,7 @@ Aplikasi Android sederhana untuk menampilkan **daftar buku dari OpenLibrary API*
 
 ---
 
-#✨ Fitur Utama  
+#✨Fitur Utama  
 - Halaman Utama (DaftarBukuActivity) → menampilkan daftar hasil pencarian buku  
   - RecyclerView untuk daftar buku  
   - Adapter untuk menghubungkan data ke tampilan  
