@@ -62,10 +62,10 @@ Aplikasi Android sederhana untuk menampilkan **profil lulusan Informatika Unsoed
   - teknik_unsoed_2, lambang_unsoed  
 
 
-# Tugas3 - Pertemuan 4  
+# Tugas 3 - Pertemuan 4  
 
 # 🎥 Demo Aplikasi  
-[⬇️ Download Demo Video](#)  
+[⬇️ Download Demo Video](https://github.com/sasaaa1504/H1D023106_KhansaNurKhalisah_Pertemuan1_PraktikumPemob/raw/master/app/video/demo2.mp4)
 
 ---
 
