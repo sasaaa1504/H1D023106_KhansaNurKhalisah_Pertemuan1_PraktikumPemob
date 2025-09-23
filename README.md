@@ -33,7 +33,7 @@ e. MaterialButton (btn_to_page2) → Tombol untuk menuju halaman kedua.
 # Tugas2 - Pertemuan 3
 
 # 🎥 Demo Aplikasi
-[⬇️ Download Demo Video](https://github.com/sasaaa1504/H1D023106_KhansaNurKhalisah_Pertemuan1_PraktikumPemob/raw/master/app/video/demo.mp4)
+[⬇️ Download Demo Video](https://github.com/sasaaa1504/H1D023106_KhansaNurKhalisah_Pertemuan1_PraktikumPemob/raw/master/app/video/demo1.mp4)
 
 
 
@@ -66,6 +66,59 @@ Aplikasi Android sederhana untuk menampilkan **profil lulusan Informatika Unsoed
 ```kotlin
 binding = ActivityHalaman2Binding.inflate(layoutInflater)
 setContentView(binding.root)
+
+# 📘 Tugas 4 - Pertemuan 4  
+
+## 🎥 Demo Aplikasi  
+[⬇️ Download Demo Video](https://github.com/sasaaa1504/H1D023106_KhansaNurKhalisah_Pertemuan1_PraktikumPemob/raw/master/app/video/demo 2.mp4)
+
+---
+
+## 📱 Book Search App (MVVM + Retrofit)  
+Aplikasi Android sederhana yang menerapkan **arsitektur MVVM** dan **networking dengan Retrofit** untuk menampilkan daftar buku dari **OpenLibrary API**.  
+
+---
+
+## ✨ Fitur Utama  
+- 🔎 **Koneksi ke API OpenLibrary** dengan Retrofit  
+- 📚 **Pencarian buku** berdasarkan kata kunci  
+- 📝 **Tampilan daftar buku** menggunakan RecyclerView  
+- 📖 **Detail data buku**: Judul, Penulis, Tahun Terbit  
+- 🔄 **Integrasi ViewModel & LiveData** (data otomatis ter-update)  
+- 🛠️ **LogCat Debugging** untuk monitoring request & error  
+
+---
+
+## 📂 Struktur Proyek  
+
+### 🔹 Activity / View  
+- `DaftarBukuActivity.kt` → Activity utama untuk menampilkan daftar buku  
+- `activity_daftar_buku.xml` → Layout utama dengan RecyclerView  
+- `list_buku.xml` → Layout item untuk daftar buku  
+
+### 🔹 ViewModel  
+- `MainViewModel.kt` → Mengatur logika bisnis & komunikasi dengan API  
+
+### 🔹 Model & Networking  
+- `SearchResponse.kt` → Data class response dari API  
+- `BookDoc.kt` → Data class detail buku  
+- `OpenLibraryApi.kt` → Interface API Retrofit  
+- `RetrofitInstance.kt` → Konfigurasi Retrofit  
+
+### 🔹 Adapter  
+- `BookAdapter.kt` → Adapter RecyclerView untuk menampilkan data buku  
+
+### 🔹 Utils  
+- `Constants.kt` → Menyimpan konstanta (BASE_URL API)  
+
+---
+
+## 🛠️ Teknologi yang Digunakan  
+- **Kotlin**  
+- **Retrofit2 + Gson Converter**  
+- **ViewModel & LiveData (AndroidX Lifecycle)**  
+- **RecyclerView**  
+- **Kotlin Coroutines**  
 
 
 
