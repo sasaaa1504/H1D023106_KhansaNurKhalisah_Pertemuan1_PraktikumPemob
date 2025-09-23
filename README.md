@@ -69,17 +69,17 @@ setContentView(binding.root)
 
 # Tugas4 - Pertemuan 4  
 
-## 🎥 Demo Aplikasi  
+# 🎥 Demo Aplikasi  
 [⬇️ Download Demo Video](#)  
 
 ---
 
-## 📚 Book Search App (MVVM + Retrofit)  
+#📚 Book Search App (MVVM + Retrofit)  
 Aplikasi Android sederhana untuk menampilkan **daftar buku dari OpenLibrary API** dengan menerapkan **arsitektur MVVM** dan **networking Retrofit**.  
 
 ---
 
-## ✨ Fitur Utama  
+#✨ Fitur Utama  
 - Halaman Utama (DaftarBukuActivity) → menampilkan daftar hasil pencarian buku  
   - RecyclerView untuk daftar buku  
   - Adapter untuk menghubungkan data ke tampilan  
@@ -93,31 +93,31 @@ Aplikasi Android sederhana untuk menampilkan **daftar buku dari OpenLibrary API*
 
 ---
 
-## 📂 Struktur Proyek  
+# 📂 Struktur Proyek  
 
-### Activity / View  
+# Activity / View  
 - `DaftarBukuActivity.kt`  
 - `activity_daftar_buku.xml`  
 - `list_buku.xml`  
 
-### ViewModel  
+# ViewModel  
 - `MainViewModel.kt`  
 
-### Model & Networking  
+# Model & Networking  
 - `SearchResponse.kt`  
 - `BookDoc.kt`  
 - `OpenLibraryApi.kt`  
 - `RetrofitInstance.kt`  
 
-### Adapter  
+# Adapter  
 - `BookAdapter.kt`  
 
-### Utils  
+# Utils  
 - `Constants.kt`  
 
 ---
 
-## 🛠️ Teknologi yang Digunakan  
+# 🛠️ Teknologi yang Digunakan  
 - Kotlin  
 - Retrofit2 + Gson Converter  
 - ViewModel & LiveData (AndroidX Lifecycle)  
