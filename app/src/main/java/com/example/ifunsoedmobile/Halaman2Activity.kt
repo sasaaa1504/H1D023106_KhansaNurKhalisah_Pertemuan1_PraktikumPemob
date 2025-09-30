@@ -1,4 +1,3 @@
-
 package com.example.ifunsoedmobile
 
 import android.content.Intent
@@ -7,6 +6,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.net.toUri
 import com.example.ifunsoedmobile.databinding.ActivityHalaman2Binding
+
 
 class Halaman2Activity : AppCompatActivity() {
     private lateinit var binding: ActivityHalaman2Binding
@@ -45,6 +45,11 @@ class Halaman2Activity : AppCompatActivity() {
             it.imgIcon.setImageResource(R.drawable.ic_phone)
             it.tvLayout.setText(R.string.telepon)
         }
+
+        binding.layoutbook.let{
+            it.imgIcon.setImageResource(R.drawable.ic_book)
+            it.tvLayout.setText(R.string.layoutbook)
+        }
     }
 
     private fun initListener() {
@@ -79,9 +84,14 @@ class Halaman2Activity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.layoutbook.root.setOnClickListener {
+            startActivity(Intent(this, DaftarBukuActivity::class.java))
+        }
+
         // Back button
         binding.btnBack.setOnClickListener {
             finish()
         }
+
     }
 }
