@@ -32,16 +32,16 @@ e. MaterialButton (btn_to_page2) → Tombol untuk menuju halaman kedua.
 
 # Tugas2 - Pertemuan 3
 
-# 🎥 Demo Aplikasi
+# Demo Aplikasi
 [⬇️ Download Demo Video](https://github.com/sasaaa1504/H1D023106_KhansaNurKhalisah_Pertemuan1_PraktikumPemob/raw/master/app/video/demo1.mp4)
 
 
 
-# 📱 IF Unsoed Mobile
+# IF Unsoed Mobile
 
 Aplikasi Android sederhana untuk menampilkan **profil lulusan Informatika Unsoed** serta menyediakan navigasi cepat ke beberapa kontak penting.
 
-# ✨ Fitur Utama
+# Fitur Utama
 - Halaman Utama (MainActivity) → tombol untuk menuju halaman profil lulusan.  
 - Halaman Profil (Halaman2Activity) →  
   - Logo & gedung Unsoed  
@@ -49,7 +49,7 @@ Aplikasi Android sederhana untuk menampilkan **profil lulusan Informatika Unsoed
   - Menu kontak (telepon, email, lokasi, Instagram)  
   - Tombol kembali  
 
-# 🏗️ Struktur Proyek
+# Struktur Proyek
 - **Activity**
   - MainActivity.kt  
   - Halaman2Activity.kt  
